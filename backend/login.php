@@ -32,7 +32,7 @@ if($all_fields)
     if (mysqli_num_rows($res)==0)
         echo "<script type='text/javascript'>alert('Invaid Username or Password');location='login.html'</script>";
     else
-        echo "<script type='text/javascript'>alert('Login Successful');location='../menu.html'</script>";
+        echo "<script type='text/javascript'>alert('Login Successful');location='server.php'</script>";
 
 
 

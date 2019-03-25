@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background: #d0d5db;    
+    background: #d0d5db;
 }
 h2{
     position: relative;
@@ -19,6 +19,10 @@ table{
     margin: 50px auto;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
+input{
+    text-align: center;
+    width: 50px;
+}
 tr:nth-child(2n) {
     background: #f0f3f5;
   }
@@ -29,7 +33,14 @@ td {
     vertical-align:middle;
     font-size: 20px;
   }
-  #price{
+  th {
+      height: 90px;
+      padding: 20px;
+      text-align: center;
+      vertical-align:middle;
+      font-size: 20px;
+    }
+  /* #price{
       position: relative;
       font-size: 20px;
       font-family: sans-serif;
@@ -44,7 +55,7 @@ td {
       background-color: white;
       border: 1px solid #60b246;
       color:#60b246;
-      cursor: pointer; 
+      cursor: pointer;
       outline: none;
       padding: 15px 32px;
   }
@@ -52,4 +63,4 @@ td {
 #add:focus{
     background: #60b246;
     color: white;
-}
+} */
